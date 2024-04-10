@@ -6,7 +6,10 @@ webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
 
 [triggers]
-crons = ["* * * * *"]
+crons = ["*/5 * * * *"]
+routes = [
+	{ pattern = "status.zdaily.net", custom_domain = true }
+]
 
 [site]
 bucket = "out"
