@@ -38,3 +38,9 @@ monitors:
     url: 'https://tools.zdaily.net/'
     method: GET
     expectStatus: 200
+
+  - id: alist
+    name: Drive
+    url: 'https://drive.zdaily.net/'
+    method: GET
+    expectStatus: 200
