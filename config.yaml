@@ -28,8 +28,8 @@ monitors:
     expectStatus: 200
 
   - id: chatgpt
-    name: ChatGPT WebUI
-    url: 'https://chat.zdaily.net'
+    name: Lobe Chat
+    url: 'https://lobe.zdaily.net'
     method: GET
     expectStatus: 200
 
